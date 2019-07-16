@@ -3,5 +3,9 @@ layout: post
 title: Preparing Capital One Interview
 ---
 
-Today is my 1 year working anniversary at current company. To celebrate, I decide to start prepare the interview of Data Scientists at Capital One.
+Today is my 1 year working anniversary at current company. To celebrate, I decide to start prepare the interview of Data Scientists at Capital One. I interviewed with Capital One sometime in 2017. Unfortunately, my first attempt didn't work out. The interview typically consists of four steps: coding test, phone screen, data challenge and on-site interview. 
+
+1. Coding test
+
+Hackerrank test. 4 questions, 2 hours. This round is not very hard. The questions are simpler than leetcode easy questions. 
 
