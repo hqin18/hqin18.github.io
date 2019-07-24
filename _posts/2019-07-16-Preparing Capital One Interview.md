@@ -19,7 +19,7 @@ I failed the phone screen round last time. After spent some time searching aroun
 
 Shame on me of forgetting ANOVA already. [A quick recap on one way ANOVA](https://newonlinecourses.science.psu.edu/stat414/node/218/)
 
-2. what is VIF in regression output
+2. what is VIF in regression output/How do you detect multicollinearity?
 
 It is a measure of how much the variance of estimated regression coefficient bk is inflated by the existence of correlation among the predictor variables in the model.A VIF=1 means there is no correlation among the kth variable and the remaining predictor variables, and hence the variance of bk is not inflated at all. The general rule of thumb is that VIF exceeding 4 warrants further investigation, while VIF > 10 is a sign of strong multicollinearity that requiring correction. [Reference](https://newonlinecourses.science.psu.edu/stat501/node/347/)
 
@@ -32,6 +32,7 @@ L1=Lasso, adds absolute value of magnitude. It shrinks less important feature's 
 L2=Ridge, adds squared magnitude. Works well to avoid overfitting
 
 [Reference](https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c)
+
 
 
 ### ML+Feature Engineering
@@ -59,9 +60,44 @@ L2=Ridge, adds squared magnitude. Works well to avoid overfitting
 - use a more robust loss function. MSE is not robust to outliers
 - maybe remove/cap/transform data (log transformation, scaling)
 
+3. Tell me about a ML algorithm
+
+
+
+### Credit Modeling questions
+
+1. What machine learning model will you use to classify fraudulent transactions on credit cards?
+- Logistic regression
+- Random forests
+- Anomaly detection might be helpful because of the high unbalanced data that normally exists in those scenarios
+
+2. Explain the various steps involved in the model building process
+
+3. How to set threshold for credit card fraud detection
+
+4. what features would you use to determine credit risk given transaction history from the past two years
+
 
 
 ## Data Challenge
 
 
 ## On-site
+
+1. Behavior questions:
+- name a time you went above and beyond to help someone
+- tell me about a time you sought out for someone else's expertise
+- tell me about a time you persuade someone to implement a solution when they didn't think there was a problem
+- what is your career plan
+- Tell us a about a time when you worked effectively in a team environment
+
+2. Break-even analysis
+
+3. Tech interviews
+- dynamic programming
+- string manupulation
+- backward induction on a multi-stage decision making problem
+- map reduce (Explain a simple map reduce problem)
+- probability questions (combination calculatoin, bayesian calculation, etc)
+
+4. Read in a very large file of tab delimited numbers using python and count frequency of each number (don’t overthink this. Use python done in a few lines)
