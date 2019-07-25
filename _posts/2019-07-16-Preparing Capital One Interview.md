@@ -101,3 +101,8 @@ L2=Ridge, adds squared magnitude. Works well to avoid overfitting
 - probability questions (combination calculatoin, bayesian calculation, etc)
 
 4. Read in a very large file of tab delimited numbers using python and count frequency of each number (don’t overthink this. Use python done in a few lines)
+
+5. A/B test vs Multi-armed bandit
+[Link](https://www.optimizely.com/optimization-glossary/multi-armed-bandit/)
+
+
