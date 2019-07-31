@@ -77,6 +77,7 @@ L2=Ridge, adds squared magnitude. Works well to avoid overfitting
 
 4. what features would you use to determine credit risk given transaction history from the past two years
 
+A good reference of credit fraud prediction: [Link](https://songhuiming.github.io/pages/2018/05/05/credit-card-fraud-detection-imbalanced-data-modeling-part-i-logistic-regression/)
 
 
 ## Data Challenge
