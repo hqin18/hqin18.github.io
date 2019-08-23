@@ -62,7 +62,21 @@ L2=Ridge, adds squared magnitude. Works well to avoid overfitting
 
 3. Tell me about a ML algorithm
 
+### MapReduce, Hadoop, Bigdata
 
+1. What is Hadoop:
+ - Ecosystem: an open souce software framework for storing large amount of data and running applications on clusters of hardware.
+ - HDFS: hadoop distributed file system, a storage solution
+2. What is MapReduce:
+ - a core component of Hadoop
+ - limitation: can only batch one job at a time
+3. What is Spark:
+ - an open-source large scale processing engine
+ - an solution in hadoop eco-system
+
+ - [Brief Intro](https://hci.stanford.edu/courses/cs448g/a2/files/map_reduce_tutorial.pdf)
+ - [Very Helpful - Hadoop vs Spark vs MapReduce](http://www.metistream.com/comparing-hadoop-mapreduce-spark-flink-storm/)
+ - [Top Hadoop questions & answers](https://www.datasciencecentral.com/profiles/blogs/top-11-hadoop-interview-questions-answers)
 
 ### Credit Modeling questions
 
