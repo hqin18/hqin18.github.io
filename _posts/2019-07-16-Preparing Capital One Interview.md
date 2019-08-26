@@ -104,6 +104,8 @@ A good reference of credit fraud prediction:
 
 ## On-site
 
+How would you explain the multinomial distribution and write python code on a whiteboard to represent this distribution
+
 1. Behavior questions:
 - name a time you went above and beyond to help someone
 - tell me about a time you sought out for someone else's expertise
