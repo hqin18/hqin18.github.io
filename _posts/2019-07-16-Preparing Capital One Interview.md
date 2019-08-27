@@ -100,6 +100,15 @@ L2=Ridge, adds squared magnitude. Works well to avoid overfitting
 - the default is 0.5; but need to observe confusion matrix to make a decision
 
 4. what features would you use to determine credit risk given transaction history from the past two years
+- Transaction amount
+- Transaction count
+- Transaction frequency
+- Transaction recency
+- Transaction by category: bar, hotel, grocery, etc.
+- Transaction channel: credit card, debit card, wire transfer
+- Distance between transaction address and billing address
+- Fraud/Risk score
+- Credit usage, max/min/average
 
 A good reference of credit fraud prediction: 
 
