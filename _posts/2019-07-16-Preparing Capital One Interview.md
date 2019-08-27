@@ -57,7 +57,7 @@ L2=Ridge, adds squared magnitude. Works well to avoid overfitting
 * how to deal with outliers
 - some models are robust to outliers, such as tree based models
 - try non-parametric test instead of parametric test
-- use a more robust loss function. MSE is not robust to outliers
+- use a more robust loss function. MSE is not robust to outliers, MAE (mean absolute error) is more robust to outliers
 - maybe remove/cap/transform data (log transformation, scaling)
 
 3. Tell me about a ML algorithm
@@ -83,11 +83,21 @@ L2=Ridge, adds squared magnitude. Works well to avoid overfitting
 1. What machine learning model will you use to classify fraudulent transactions on credit cards?
 - Logistic regression
 - Random forests
-- Anomaly detection might be helpful because of the high unbalanced data that normally exists in those scenarios
+- Anomaly detection might be helpful because of the high unbalanced data that normally exists in those scenarios (KNN, K-means, SVM)
 
 2. Explain the various steps involved in the model building process
+- read in the data: if too big, consider read in partitions or use other tools such as spark
+- Exploratory data analysis(EDA): shape, dimension, data type, volume, fill in rate; define the problem - supervised learning? unsupervised learning? predictive modeling? clustering? correlation with response variable. check positive ratio to see if it's unbalanced.
+- Data clean up: timestamp to date, shuffle, missing imputation (pandas, numpy), split into train/val/test sets
+- learning curve: fit a series of simple models using different sizes of samples, report on performance, determine the proper size when model stopped improving
+- algorithm selection: sensitive to use cases. predicting unseen data, don't use tree based models; huge amount of features, avoid svm as it's slow; avoid linear model when heavy collinearity presents
+- feature selection: forward, backward, stepwise, importance, a lot other algorithms for model interpretability
+- evaluation, auc for classification, confusion matrix when tpr/tnr are important;
+- [Regression loss functions](https://heartbeat.fritz.ai/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0)L1 loss is more robust to outliers, but its derivatives are not continuous, making it inefficient to find the solution. L2 loss is sensitive to outliers, but gives a more stable and closed form solution (by setting its derivative to 0.)
+- [Classification loss functions](https://towardsdatascience.com/common-loss-functions-in-machine-learning-46af0ffc4d23)
 
 3. How to set threshold for credit card fraud detection
+- the default is 0.5; but need to observe confusion matrix to make a decision
 
 4. what features would you use to determine credit risk given transaction history from the past two years
 
