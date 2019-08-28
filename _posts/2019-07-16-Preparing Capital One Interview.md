@@ -88,6 +88,9 @@ A good [Summary Material](https://yoyoinwanderland.github.io/Interview-Classific
  - Data sharing is slow with Mapreduce due to replication, serialization, and disk IO
  - Most of the Hadoop applications, they spend more than 90% of the time doing HDFS read-write operations.
  - Spark stores the state of memory as an object across the jobs and the object is sharable between those jobs. Data sharing in memory is 10 to 100 times faster than network and Disk.
+ 
+ 5. What is Hadoop Serialization
+ - Serialization is the process of converting structured data into its raw form. Deserialization is the reverse process of reconstructing structured forms from the data's raw bit stream form. In Hadoop, different components talk to each other via Remote Procedure Calls (RPCs).
 
 ### Credit Modeling questions
 
