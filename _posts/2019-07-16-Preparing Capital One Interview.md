@@ -9,6 +9,9 @@ Today is my 1 year working anniversary at current company. To celebrate, I decid
 
 Hackerrank test. 4 questions, 2 hours. This round is not very hard. The questions are simpler than leetcode easy questions. 
 
+## Short self introduction
+I am currently working in Marriott advanced data science team, cobrand credit card project. My work includes building machine learning pipeline to deploy batch predictions on credit card offers, which is at a weekly cadance across omni-channels delivery of 30M customers. I spend majority of my time 
+
 
 ## Phone screen
 
