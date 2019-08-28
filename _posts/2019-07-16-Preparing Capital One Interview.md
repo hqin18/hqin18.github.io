@@ -82,6 +82,12 @@ A good [Summary Material](https://yoyoinwanderland.github.io/Interview-Classific
  - [Brief Intro](https://hci.stanford.edu/courses/cs448g/a2/files/map_reduce_tutorial.pdf)
  - [Very Helpful - Hadoop vs Spark vs MapReduce](http://www.metistream.com/comparing-hadoop-mapreduce-spark-flink-storm/)
  - [Top Hadoop questions & answers](https://www.datasciencecentral.com/profiles/blogs/top-11-hadoop-interview-questions-answers)
+ 
+ 4. Explain how RDDs work with Scala in Spark
+ - Resilient Distributed Datasets (RDD) is a fundamental data structure of Spark. It is an immutable distributed collection of objects. Each dataset in RDD is divided into logical partitions, which may be computed on different nodes of the cluster. RDDs can contain any type of Python, Java, or Scala objects, including user-defined classes.
+ - Data sharing is slow with Mapreduce due to replication, serialization, and disk IO
+ - Most of the Hadoop applications, they spend more than 90% of the time doing HDFS read-write operations.
+ - Spark stores the state of memory as an object across the jobs and the object is sharable between those jobs. Data sharing in memory is 10 to 100 times faster than network and Disk.
 
 ### Credit Modeling questions
 
