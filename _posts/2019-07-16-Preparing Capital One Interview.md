@@ -10,7 +10,7 @@ Today is my 1 year working anniversary at current company. To celebrate, I decid
 Hackerrank test. 4 questions, 2 hours. This round is not very hard. The questions are simpler than leetcode easy questions. 
 
 ## Short self introduction
-I am currently working in Marriott advanced data science team, cobrand credit card project. My work includes building machine learning pipeline to deploy batch predictions on credit card offers, which is at a weekly cadance across omni-channels delivery of 30M customers. I spend majority of my time 
+I am currently working in Marriott advanced data science team, cobrand credit card project. My work includes building machine learning pipeline to deploy batch predictions on credit card offers, which is a omni-channels delivery for 30M customers on a weekly cadance. I spend majority of my time building up the framework, including spark sql etl, python modules for retraining, scoring, automated QA, solving optimization, and orchestration. The objective is to drive incremental card acquisition. Our prediction feed downstream teams and deploys on web, mobile app, email, DM channels as ads and digital placements.
 
 
 ## Phone screen
@@ -134,6 +134,20 @@ A good reference of credit fraud prediction:
 [Part 2](https://songhuiming.github.io/pages/2018/05/12/credit-card-fraud-detection-imbalanced-data-modeling-part-ii-random-forest/)
 
 [Part 3](https://songhuiming.github.io/pages/2018/05/12/credit-card-fraud-detection-imbalanced-data-modeling-part-iii-ensemblingstacking-models/)
+
+## Questions to interviewer
+1. which team are you on in capital one data science? what is the functionality and how it drives the business?
+
+2. culture - how capital one is driven by analytical insights and data science? what is the (feedback) loop for R&D items? stakeholders?
+
+3. a typical data scientist like you, after development work is done, are you in the hook to make sure production runs, or is there any other team leading this refinery?
+
+4. how data engineers, data scientists and developers work together in capital one? under the same team?
+
+5. what is the work style? agile? do sprints? how much ad-hoc?
+
+6. how's the operation model look like? team structure?
+
 
 ## Data Challenge
 
