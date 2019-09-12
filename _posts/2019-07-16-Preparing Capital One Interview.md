@@ -155,6 +155,7 @@ A good reference of credit fraud prediction:
 ## On-site
 
 How would you explain the multinomial distribution and write python code on a whiteboard to represent this distribution
+[Official resource for preparing case interview](https://jobs.capitalone.co.uk/business-analyst-case-study-guide)
 
 1. Behavior questions:
 - name a time you went above and beyond to help someone
