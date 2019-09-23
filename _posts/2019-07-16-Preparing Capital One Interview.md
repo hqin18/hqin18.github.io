@@ -163,12 +163,18 @@ Multinomial distribution is a generalized version of binomial distribution. Toss
 
 1. Behavior questions:
 - name a time you went above and beyond to help someone
-- tell me about a time you sought out for someone else's expertise
-- tell me about a time you persuade someone to implement a solution when they didn't think there was a problem
+- tell me about a time you sought out for someone else's expertise (test pyomo optimization)
+- tell me about a time you persuade someone to implement a solution when they didn't think there was a problem (optimizer safeguard)
 - what is your career plan
-- Tell us a about a time when you worked effectively in a team environment
+- Tell us a about a time when you worked effectively in a team environment (deploy models on same branch)
 
 2. Break-even analysis
+- Revenue = Volume x Price
+- Cost = Fixed costs + Variable costs
+- Profit = Revenue - Cost
+- Profit margin (aka Profitability) = Profit / Revenue
+- Return on investment (ROI) = Annual profit / Initial investment
+- Breakeven (aka Payback period) = Initial investment / Annual profit
 
 3. Tech interviews
 - dynamic programming
