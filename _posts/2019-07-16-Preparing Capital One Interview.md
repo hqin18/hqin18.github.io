@@ -193,4 +193,4 @@ Multinomial distribution is a generalized version of binomial distribution. Toss
 [Reference](https://blog.csdn.net/xiaodongxiexie/article/details/72084900)
 
 
-
+7. tree-based model split, decision making, pruning
