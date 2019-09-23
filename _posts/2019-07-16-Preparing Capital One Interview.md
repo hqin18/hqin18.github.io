@@ -159,6 +159,8 @@ How would you explain the multinomial distribution and write python code on a wh
 
 Multinomial distribution is a generalized version of binomial distribution. Tossing a coin is binomial, tossing a dice is multinomial.
 
+[Reference](https://rstudio-pubs-static.s3.amazonaws.com/296336_f22ec9eeff5742429f775bb13365b229.html)
+
 1. Behavior questions:
 - name a time you went above and beyond to help someone
 - tell me about a time you sought out for someone else's expertise
