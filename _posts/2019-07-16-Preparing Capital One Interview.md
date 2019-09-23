@@ -157,6 +157,8 @@ A good reference of credit fraud prediction:
 How would you explain the multinomial distribution and write python code on a whiteboard to represent this distribution
 [Official resource for preparing case interview](https://jobs.capitalone.co.uk/business-analyst-case-study-guide)
 
+Multinomial distribution is a generalized version of binomial distribution. Tossing a coin is binomial, tossing a dice is multinomial.
+
 1. Behavior questions:
 - name a time you went above and beyond to help someone
 - tell me about a time you sought out for someone else's expertise
@@ -177,5 +179,10 @@ How would you explain the multinomial distribution and write python code on a wh
 
 5. A/B test vs Multi-armed bandit
 [Link](https://www.optimizely.com/optimization-glossary/multi-armed-bandit/)
+
+
+6. CLT and big-number theory, distributions and all
+[Reference](https://blog.csdn.net/xiaodongxiexie/article/details/72084900)
+
 
 
