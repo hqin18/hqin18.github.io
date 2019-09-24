@@ -195,4 +195,4 @@ Multinomial distribution is a generalized version of binomial distribution. Toss
 
 7. tree-based model split, decision making, pruning
 
-8. they give you an regression/CART model with 15 min to prepare and explain and provide recommendations. they asked about correlation, collinearity, p-value, ANOVA, and improvements.
+8. they give you an regression/CART model with 15 min to prepare and explain and provide recommendations. they asked about correlation, collinearity, p-value, ANOVA, R square, and improvements.
