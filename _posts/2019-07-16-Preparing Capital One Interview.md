@@ -24,6 +24,8 @@ A good [Summary Material](https://yoyoinwanderland.github.io/Interview-Linear-Re
 
 Shame on me of forgetting ANOVA already. [A quick recap on one way ANOVA](https://newonlinecourses.science.psu.edu/stat414/node/218/)
 
+[Another reference](http://www.stat.yale.edu/Courses/1997-98/101/anovareg.htm)
+
 2. what is VIF in regression output/How do you detect multicollinearity?
 
 It is a measure of how much the variance of estimated regression coefficient bk is inflated by the existence of correlation among the predictor variables in the model.A VIF=1 means there is no correlation among the kth variable and the remaining predictor variables, and hence the variance of bk is not inflated at all. The general rule of thumb is that VIF exceeding 4 warrants further investigation, while VIF > 10 is a sign of strong multicollinearity that requiring correction. [Reference](https://newonlinecourses.science.psu.edu/stat501/node/347/)
