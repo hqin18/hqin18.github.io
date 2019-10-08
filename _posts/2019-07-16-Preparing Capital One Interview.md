@@ -200,3 +200,12 @@ Multinomial distribution is a generalized version of binomial distribution. Toss
 8. they give you an regression/CART model with 15 min to prepare and explain and provide recommendations. they asked about correlation, collinearity, p-value, ANOVA, R square, and improvements.
 
 [Flight delay example](https://www.kaggle.com/fabiendaniel/predicting-flight-delays-tutorial)
+
+
+## Job Fit
+### Small business card team
+1. Daily work toolkit, projects on hand? Difficulties recently?
+2. Teamplay? Individual contributer?
+3. Small business vision in capital one?
+4. Operation model, direct reports?
+5. Career path? training? 
